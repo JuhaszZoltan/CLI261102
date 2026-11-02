@@ -1,0 +1,81 @@
+Id,Kategoria,Gyarto,Modell,Ar_HUF,Keszlet_Db,Ertekeles
+1,Kiegeszito,Nova,USB-C Cable 1m,2500,350,4.2
+2,Kiegeszito,Nova,USB-C Cable 2m,3500,280,4.4
+3,Kiegeszito,Nova,Lightning Cable 1m,3000,200,4.1
+4,Kiegeszito,Cyber,MicroUSB Cable,1500,150,3.8
+5,Kiegeszito,TechPro,HDMI 2.1 Cable 2m,5500,90,4.7
+6,Kiegeszito,TechPro,DisplayPort Cable,4500,60,4.5
+7,Kiegeszito,Apex,Audio Jack 3.5mm,1200,120,4.0
+8,Kiegeszito,Apex,Ethernet Cat6 5m,2800,180,4.6
+9,Kiegeszito,Cyber,USB Extension 2m,2000,110,4.2
+10,Kiegeszito,Nova,Cable Organizer Pack,1800,400,4.3
+11,Kiegeszito,TechPro,Clear Case X,3500,250,4.1
+12,Kiegeszito,TechPro,Leather Case Pro,8900,80,4.8
+13,Kiegeszito,Cyber,Rugged Armor Case,5500,120,4.5
+14,Kiegeszito,Cyber,Silicone Case Basic,2000,300,3.9
+15,Kiegeszito,Apex,Wallet Case,6500,90,4.4
+16,Kiegeszito,Nova,Bumper Case,3000,150,4.0
+17,Kiegeszito,TechPro,Waterproof Pouch,4000,200,4.2
+18,Kiegeszito,Quantum,Glass Screen Protector,2500,500,4.5
+19,Kiegeszito,Quantum,Matte Screen Protector,2800,350,4.3
+20,Kiegeszito,Cyber,Privacy Screen Filter,4500,180,4.1
+21,Kiegeszito,Apex,Wall Charger 20W,5500,220,4.6
+22,Kiegeszito,Apex,Fast Charger 65W,12500,110,4.8
+23,Kiegeszito,Nova,Dual USB Charger,4500,160,4.2
+24,Kiegeszito,Cyber,Car Charger 30W,3800,190,4.4
+25,Kiegeszito,TechPro,Wireless Pad 15W,7500,130,4.3
+26,Kiegeszito,TechPro,MagSafe Stand,11000,85,4.7
+27,Kiegeszito,Quantum,PowerBank 10000mAh,8500,150,4.5
+28,Kiegeszito,Quantum,PowerBank 20000mAh,14500,90,4.6
+29,Kiegeszito,Nova,Solar PowerBank,16000,40,3.7
+30,Kiegeszito,Cyber,Mini PowerBank,5500,210,4.1
+31,Kiegeszito,SoundWave,Basic Earbuds,3500,280,3.6
+32,Kiegeszito,SoundWave,Sport Wireless,12500,140,4.4
+33,Kiegeszito,SoundWave,TWS Pro,25000,90,4.7
+34,Kiegeszito,Apex,Gaming Headset,18500,60,4.5
+35,Kiegeszito,Cyber,Office Headset USB,8500,110,4.0
+36,Kiegeszito,Nova,Bluetooth Speaker Mini,6500,150,4.2
+37,Kiegeszito,Nova,Party Speaker V2,35000,30,4.6
+38,Kiegeszito,TechPro,Webcam 720p,9500,80,3.9
+39,Kiegeszito,TechPro,Webcam 1080p,18500,50,4.5
+40,Kiegeszito,Apex,Ring Light 10,8000,120,4.3
+41,Kiegeszito,Cyber,Mouse Basic,2500,350,4.0
+42,Kiegeszito,Quantum,Wireless Mouse,5500,220,4.4
+43,Kiegeszito,Quantum,Ergo Mouse Pro,14500,60,4.7
+44,Kiegeszito,TechPro,Keyboard Membrane,4500,180,4.1
+45,Kiegeszito,TechPro,Mechanical KB,28500,45,4.8
+46,Okostelefon,NextGen,Phone 13,280000,45,4.7
+47,Okostelefon,NextGen,Phone 13 Pro,380000,30,4.9
+48,Okostelefon,NextGen,Phone 12,220000,55,4.5
+49,Okostelefon,Quantum,Cell X2,190000,60,4.3
+50,Okostelefon,Quantum,Cell X2 Max,260000,35,4.6
+51,Okostelefon,Nova,Pocket 6G,165000,75,4.1
+52,Okostelefon,Cyber,Comm B2,95000,110,3.8
+53,Okostelefon,Cyber,Comm B2 Plus,115000,80,4.0
+54,Okostelefon,Apex,Horizon V2,340000,25,4.8
+55,Okostelefon,Apex,Horizon V2 Ultra,420000,15,4.9
+56,Okostelefon,TechPro,Connect 6,230000,45,4.4
+57,Okostelefon,TechPro,Connect 6 Pro,310000,28,4.6
+58,Okostelefon,Nova,Foldable Z2,650000,8,4.5
+59,Okostelefon,Cyber,ToughPhone Max,185000,30,4.2
+60,Okostelefon,Quantum,Cell Lite 2,130000,85,4.0
+61,Okostelefon,Apex,Stellar 5G,310000,22,4.7
+62,Okostelefon,NextGen,Phone 11,170000,40,4.4
+63,Okostelefon,Nova,SelfiePhone,145000,50,4.2
+64,Laptop,TechPro,Book 16,380000,12,4.6
+65,Laptop,TechPro,Book 16 Pro,490000,7,4.8
+66,Laptop,Quantum,Speed 15,310000,18,4.4
+67,Laptop,Nova,X-Treme Gaming V2,720000,4,4.9
+68,Laptop,Cyber,Netbook A2,135000,35,3.9
+69,Laptop,Apex,UltraSlim 14,440000,9,4.7
+70,Laptop,TechPro,Titanium 17,920000,2,5.0
+71,Laptop,Quantum,Gamer Pro 18,640000,5,4.6
+72,Laptop,Nova,Student 14,165000,40,4.1
+73,Laptop,Cyber,Workhouse 16,245000,22,4.3
+74,Monitor,Vision,Clear 24,48000,35,4.4
+75,Monitor,Vision,Ultra 4K 27,145000,12,4.8
+76,Monitor,Quantum,Gamer 165Hz,95000,18,4.6
+77,Monitor,Nova,Wide 34 Curved,165000,8,4.7
+78,Monitor,Cyber,Office 22,38000,60,3.9
+79,Tablet,NextGen,Tab 11,145000,20,4.6
+80,Tablet,Nova,Draw 12,220000,8,4.8

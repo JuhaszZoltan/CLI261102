@@ -1,0 +1,44 @@
+﻿# LINQ Gyakorlófeladatok
+
+## első rész: `sum`, `average`, `count`, `min`, `max`, `minby`, `maxby`, `any`, `all`, `first`-, `last`-, `single`- +(`ordefault`) 
+
+- [ ] **1.** Hány olyan termékünk van összesen, aminek az ára kevesebb mint 10 000 Ft?
+- [x] **2.** Melyik a legdrágább termék a teljes kínálatban? (Válaszként a teljes objektumra van szükség.)
+- [ ] **3.** Keresd meg a listában azt az egyetlen terméket, amelynek az `Id`-ja pontosan 42!
+- [ ] **4.** Van-e egyáltalán olyan termék a teljes kínálatban, aminek az ára meghaladja az 1 000 000 Ft-ot?
+- [x] **5.** Mennyi az összes termékünk átlagos értékelése a webshopban (a teljes listát nézve)?
+- [ ] **6.** Keresd meg az első "Quantum" gyártmányú okostelefont, amelynek az ára 200 000 Ft alatt van! (Ha nincs ilyen, az eredmény legyen `null`).
+- [ ] **7.** Keresd meg a lista legutolsó olyan termékét, amiből pontosan 0 darab van raktáron! (Ha nincs ilyen, az eredmény legyen `null`).
+- [ ] **8.** Igaz-e az az állítás, hogy a kínálatunkban lévő összes termék értékelése eléri a 3.0-t?
+- [ ] **9.** Melyik termékből van a legnagyobb darabszám készleten a teljes raktárat figyelembe véve?
+- [ ] **10.** Keresd meg a fájl szerinti legelső "Tablet" kategóriájú terméket!
+- [ ] **11.** Hány darab "Okostelefon" kategóriájú termék található a listában?
+- [ ] **12.** Mennyi a teljes raktárkészletünk darabszáma összesen (az összes termékből együttesen)?
+- [ ] **13.** Keresd meg a listában a "Foldable Z2" modellnevű terméket (biztosak vagyunk benne, hogy pontosan egy ilyen van)!
+- [ ] **14.** Létezik-e legalább egy olyan termék a rendszerben, amiből több mint 300 darab porosodik a raktáron?
+- [ ] **15.** Melyik a legutolsó "Monitor" kategóriájú termék a lista sorrendje alapján?
+- [ ] **16.** Melyik a legrosszabbra értékelt termék az egész raktárban?
+- [x] **17.** Mekkora a teljes árukészletünk összértéke (ár × készlet) az összes kategóriát egybevéve?
+- [ ] **18.** Igaz-e, hogy az összes raktáron lévő termékünk ára 1 000 000 Ft alatt van?
+- [ ] **19.** Keresd meg a "Gamer Pro 19" nevű modellt! A program fusson tovább hiba nélkül akkor is, ha ilyen termék még nem létezik a rendszerben.
+- [ ] **20.** Mi az átlagos ára a kínálatunkban szereplő 80 db terméknek?
+- [ ] **21.** Keresd meg a listában azt a "Cyber" gyártmányú terméket, aminek az értékelése hajszálpontosan 3.8! (Tegyük fel, hogy nem tudjuk, hány ilyen van, de az elsőt kérjük).
+- [ ] **22.** Igaz-e az az állítás, hogy az összes "Kiegeszito" kategóriájú termékből van legalább 10 db raktáron?
+- [ ] **23.** Hány olyan termékünk van, aminek a gyártója "Apex" és az ára 20 000 Ft felett van?
+- [ ] **24.** Melyik az az egyetlen termék, aminek az azonosítója (`Id`) pontosan 80?
+- [ ] **25.** Mennyi az átlagos készletszint (darabszám) a "NextGen" márkájú termékek esetében?
+- [ ] **26.** Melyik a legolcsóbb "Monitor" a jelenlegi kínálatunkban?
+- [ ] **27.** Van-e olyan "Laptop" a listában, amiből több mint 100 darab porosodik a raktáron?
+- [ ] **28.** Mennyi a "Tablet" kategóriájú termékek értékelésének átlaga?
+- [ ] **29.** Keresd meg a lista legelső olyan termékét, aminek az ára pontosan 45 000 Ft!
+- [ ] **30.** Melyik az utolsó olyan termék a fájlban, aminek az értékelése tökéletes (5.0)?
+- [ ] **31.** Hány darab olyan termékünk van összesen, amelynek a nevében (`Modell`) szerepel a "Pro" szó?
+- [ ] **32.** Mekkora a "Nova" gyártó összes termékének együttes készletértéke forintban (ár × darab)?
+- [ ] **33.** Melyik az a "SoundWave" termék, amiből a legkevesebb van raktáron?
+- [ ] **34.** Igaz-e, hogy az összes 500 000 Ft-nál drágább prémium termékünk értékelése legalább 4.5?
+- [ ] **35.** Keresd meg a rendszerben azt az egyetlen terméket, amelynek a modellneve "Pocket 6G"!
+- [ ] **36.** Van-e olyan termék a "Kiegeszito" kategóriában, ami drágább, mint 50 000 Ft?
+- [ ] **37.** Keresd meg a legelső olyan "TechPro" márkájú terméket, amelynek az ára még 100 000 Ft alatt van! (Biztosítsd, hogy ne fagyjon le a kód, ha ilyen már nincs).
+- [ ] **38.** Melyik a legmagasabb értékelést kapott "Okostelefon" az egész listában?
+- [ ] **39.** Hány darab termékünk van összesen az "Apex" és a "Quantum" gyártóktól együttesen? (Egy lekérdezésben oldd meg!)
+- [ ] **40.** Keresd meg a sorrend szerinti legutolsó olyan terméket a listában, ami "Vision" gyártmányú!
