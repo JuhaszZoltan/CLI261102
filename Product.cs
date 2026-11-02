@@ -15,5 +15,5 @@
         $"\tModell: {Model}\n" +
         $"\tÁr: {Price:C0}\n" +
         $"\tKészleten: {Stock} db\n" +
-        $"\tÉrtékelés: {Rating}/5.0";
+        $"\tÉrtékelés: {Rating:0.0}/5,0";
 }
