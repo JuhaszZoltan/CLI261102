@@ -94,3 +94,14 @@
 - [ ] **88.** Gyártónként keresd meg a legrosszabbra értékelt terméket (a teljes objektum kell)!
 - [ ] **89.** Csoportosítsd a termékeket egy logikai feltétel alapján: drágábbak-e 100 000 Ft-nál? (Így lesz egy `true` és egy `false` csoport). Számold meg, mennyi termék van a két csoportban!
 - [ ] **90.** Gyártónként készíts egy komplett statisztikát: Gyártó neve, Különböző termékek száma, Összes darab raktáron, és az eddigi Legjobb értékelés, amit egy termékük kapott!
+
+- [ ] **91.** Készíts egy listát (string) azokról a gyártókról, akik "Laptop"-ot készítenek, és egy másikat azokról, akik "Monitor"-t. Használd a halmazok unióját (`Union`), hogy megkapd az összes ilyen gyártó nevét, ismétlődések nélkül!
+- [ ] **92.** Melyek azok a gyártók, akik "Laptop"-ot ÉS "Tablet"-et is készítenek? (Használd az `Intersect` metódust a két gyártólista metszetére!)
+- [ ] **93.** Mely gyártók NEM gyártanak "Kiegeszito" kategóriájú terméket? (Képezd az összes gyártó halmazát, és vond ki belőle `Except`-tel a kiegészítőt gyártók halmazát!)
+- [ ] **94.** Legyen két objektumlistád: `olcsok` (50 ezer Ft alattiak) és `kivaloak` (4.8 vagy jobb értékelés). Egyesítsd a két teljes objektumlistát úgy, hogy egy termék se szerepeljen duplán a végeredményben! (Használd a .NET 6 `UnionBy` metódusát az `Id` alapján!)
+- [ ] **95.** Tegyük fel, hogy egy külső API-ból kaptál egy listát a ma akciós termékek azonosítóiról: `int[] akciosIdk = { 3, 12, 45, 67, 72 };`. Keresd ki a teljes terméklistából ezeket a konkrét `Termek` objektumokat az `IntersectBy` segítségével!
+- [ ] **96.** Hozd létre a "TechPro" és a "Nova" termékek listáját külön-külön! Fűzd össze őket a `Concat` segítségével! (A Concat nem szűr ismétlődésre, csak "egymás mögé ragasztja" a listákat, ami teljesítményben gyorsabb, ha tudjuk, hogy eleve nincs átfedés).
+- [ ] **97.** Szűrd ki a "Cyber" termékeket a teljes kínálatból úgy, hogy az `ExceptBy` metódust használod! (A teljes terméklistából vond ki a "Cyber" termékek `Id`-jait).
+- [ ] **98.** Keresd meg halmazművelettel azokat a kategóriákat (string), amelyekben van 4.9 vagy annál jobb értékelésű termék, ÉS van 300 000 Ft-nál drágább termék is! (Két string halmaz `Intersect`-je).
+- [ ] **99.** Készíts két listát: a `listaA` legyen a lista első 20 terméke (`Take(20)`), a `listaB` pedig a 11-től a 30-ig tartó termékek (`Skip(10).Take(20)`). Hány eleme lesz a két lista metszetének, ha az `Id` alapján nézzük (`IntersectBy`)?
+- [ ] **100.** *(Szimmetrikus differencia - Haladó)* A LINQ-ban nincs beépített operátor a szimmetrikus differenciára (A ∪ B \ A ∩ B). Készíts egy lekérdezést kizárólag halmazműveletekkel (`UnionBy`, `IntersectBy`, `ExceptBy`), ami azokat a termékeket adja vissza, amelyek VAGY "Nova" gyártmányúak (A), VAGY 50 000 Ft alattiak (B), de **NEM mindkettő egyszerre**!
