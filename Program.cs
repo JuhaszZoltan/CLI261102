@@ -162,4 +162,6 @@ var orderdistinct = products.Select(p => p.Manufacturer).Distinct().Order();
 Console.WriteLine("ABC rendben a gyártók nevei:");
 foreach (var manufacturer in orderdistinct) Console.WriteLine($"\t- {manufacturer}");
 
-//halmazműveletek: union, iintersect, execpt, concat
+//halmazműveletek: union, intersect, execpt, concat
+
+//"top" vagy "limit" ->>> takre(x) / skip(x).take(y)
