@@ -1,7 +1,5 @@
 ﻿# LINQ Gyakorlófeladatok
 
-## első rész: `sum`, `average`, `count`, `min`, `max`, `minby`, `maxby`, `any`, `all`, `first`-, `last`-, `single`- +(`ordefault`) 
-
 - [ ] **1.** Hány olyan termékünk van összesen, aminek az ára kevesebb mint 10 000 Ft?
 - [x] **2.** Melyik a legdrágább termék a teljes kínálatban? (Válaszként a teljes objektumra van szükség.)
 - [ ] **3.** Keresd meg a listában azt az egyetlen terméket, amelynek az `Id`-ja pontosan 42!
