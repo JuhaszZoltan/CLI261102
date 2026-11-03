@@ -71,8 +71,6 @@ Console.WriteLine($"{(any ? "van" : "nincs")} Apex termék készleten");
 //   last          -    last or default
 //   single        -    single or default
 
-
-
 Console.Write("írd be milyen termékmodellt keresel: ");
 string searchString = Console.ReadLine();
 var firstOrDefault = products.FirstOrDefault(p => p.Model.Contains(searchString));
@@ -110,3 +108,58 @@ Console.WriteLine(
 // akkor "Sequence contains more than one matching element" ex-et dob!
 // ha a típus class (és nekünk az lesz majdnem mindig...) akkor ez 'null'
 // ha struct (ez ritkább lesz) akkor "zéró".
+
+
+// kiválogatás >>> WHERE
+// rendezés >>> ORDER BY (orderByDescanding ---- order, orderDescanding)
+// szétválogatás >>> GROUP BY
+
+var where = products.Where(p => p.Manufacturer == "Apex");
+Console.WriteLine("Apex termék:");
+foreach (var p in where) Console.WriteLine($"\t{p.Model,-20} {p.Price,10:C0}");
+
+var orderby = products.OrderBy(p => p.Price);
+Console.WriteLine("összes termék ár szerint növekvő sorrendben: ");
+Console.WriteLine($"\t{"gyártó", -10} {"termék", -20} {"ár",10}");
+Console.WriteLine("\t------------------------------------------------");
+foreach (var p in orderby) Console.WriteLine($"\t{p.Manufacturer,-10} {p.Model,-25} {p.Price,10:C0}");
+
+var gropby = products.GroupBy(p => p.Manufacturer);
+Console.WriteLine("termékek gyártónként:");
+foreach (var group in gropby)
+{
+    Console.WriteLine($"\t{group.Key}:");
+    foreach (var p in group)
+    {
+        Console.WriteLine($"\t\t{p.Model,-25} {p.Price,10:C0}");
+    }
+}
+
+var stat = products
+    .GroupBy(p => p.Manufacturer)
+    .Select(g => new
+    {
+        Manufacturer = g.Key,
+        ProductCount = g.Count(),
+        BestRating = g.Max(p => p.Rating),
+        StockValue = g.Sum(p => p.Stock * p.Price)
+    })
+    .OrderByDescending(s => s.StockValue);
+
+Console.WriteLine("teljes gyártói statisztika:");
+foreach (var item in stat)
+{
+    Console.WriteLine($"\t{item.Manufacturer}: ");
+    Console.WriteLine($"\t\tforgalmazott termékek száma: {item.ProductCount} db");
+    Console.WriteLine($"\t\tlegjobb értékelés: {item.BestRating}/5.00");
+    Console.WriteLine($"\t\tárúkészéet értéke: {item.StockValue:C0}");
+}
+
+var whereminby = products.Where(p => p.Manufacturer == "Cyber").MinBy(p => p.Price);
+Console.WriteLine($"legolcsóbb Cyber termék:\n{whereminby}");
+
+var orderdistinct = products.Select(p => p.Manufacturer).Distinct().Order();
+Console.WriteLine("ABC rendben a gyártók nevei:");
+foreach (var manufacturer in orderdistinct) Console.WriteLine($"\t- {manufacturer}");
+
+//halmazműveletek: union, iintersect, execpt, concat
