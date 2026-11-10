@@ -186,3 +186,6 @@ foreach (var item in stat)
         $"\tátlagár: {item.AvgCategoryPrice:C2}\n" +
         $"\tlegjobb termék: {item.BestModel}");
 }
+
+//halmazműveletek: union, intersect, execpt, concat
+//"top" vagy "limit" >>> takre(x) / skip(x).take(y)
